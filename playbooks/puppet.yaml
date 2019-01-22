@@ -1,0 +1,4 @@
+- name: instalando infra puppet
+  hosts: all
+  roles:
+   - puppet 

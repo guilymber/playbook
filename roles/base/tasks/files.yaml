@@ -1,0 +1,5 @@
+- name: copiando arquivo com variavel
+  template:
+   src: templates/config.php
+   dest: /tmp/
+  notify: servico

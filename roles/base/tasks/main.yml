@@ -1,0 +1,12 @@
+---
+# tasks file for base
+
+- name: playbook para criar usuarios
+  include: user.yaml
+
+- name: playbook para instalr pacotes
+  include: pacotes.yaml
+
+- name: playbook para copiar arquivos
+  include: files.yaml
+
